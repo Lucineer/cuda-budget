@@ -1,0 +1,8 @@
+[package]
+name = "cuda-budget"
+version = "0.1.0"
+edition = "2021"
+description = "Resource budgeting — computation budgets, token allocation, priority scheduling, and spending limits for agent fleets"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
